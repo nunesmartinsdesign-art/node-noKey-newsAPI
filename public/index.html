@@ -54,7 +54,7 @@
     }
 
     @media (max-width: 768px) {
-      form { display: grid; gap: .5rem; width: 100%;zoom:1.5;float:left}
+      form { display: grid; gap: .5rem; width: 100%;zoom:1.2;float:left}
       #formulario{width:100%; background-color: aliceblue;}
       body { font-family: system-ui, sans-serif; margin: 2rem; width:90%;margin:auto;}
       .results { display: grid; gap: 1rem; margin-top: 1.5rem;width: 100%; }
@@ -96,11 +96,11 @@
       </select>
     </label>
     <label>
-      De (from, ISO 8601):
+      De (from):
       <input type="date" name="from" />
     </label>
     <label>
-      Até (to, ISO 8601):
+      Até (to):
       <input type="date" name="to" />
     </label>
     <button type="submit">Pesquisar (everything)</button>
@@ -128,7 +128,7 @@
       </select>
     </label>
     <label>
-      Palavras-chave (q):
+      Palavras-chave (keywords):
       <input type="text" name="q" placeholder="ex.: trump, football" />
     </label>
     <button type="submit">Obter Top Headlines</button>
